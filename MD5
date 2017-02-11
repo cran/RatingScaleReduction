@@ -1,0 +1,17 @@
+53f1a2263ffdc2ee341963fbd2aa6409 *DESCRIPTION
+588da0aecbd3034c00d2fa0415c5f162 *NAMESPACE
+f3772b487701ab2ed740c872a1c68ada *R/CheckAttr4Inclusion.R
+d277a7a2fcb00bd47f0d46d054ab38ca *R/diffExamples.R
+8683d03ea170ac324ad7732cf14e0cc8 *R/grayExamples.R
+2cb2613add288f4b6196e265fd595d88 *R/grayExamplesN.R
+f483d8ed2d05bfa82c3027c3d00fafdb *R/rsr.R
+101cb95f70b297e97a490ca85e824a5d *R/startAuc.R
+555f5ff95c567529ac22cf208b44e307 *R/totalAuc.R
+8b6d000f0ed0ec32dd74bc615b9ce10c *man/CheckAttr4Inclusion.Rd
+3cd2545c1799d2165e3fe2972d1de23d *man/RatingScaleReduction-package.Rd
+b1c0e2dc0bed46f1b3cd80732869ef69 *man/diffExamples.Rd
+dc4e9de4cc33b236c5f3df6b13f128bf *man/grayExamples.Rd
+4787692b94ac348227a03461c2ed30eb *man/grayExamplesN.Rd
+2031032ec9ac73226333ee53a379ccc4 *man/rsr.Rd
+9c6e035f7b0d918a2bc007132265b230 *man/startAuc.Rd
+709c453da537bc3233532fa58be062dd *man/totalAuc.Rd

@@ -21,11 +21,16 @@ startAuc(attribute, D)}
 }
 
 
-\references{W.W. Koczkodaj,  T. Kakiashvili,  A. Szymanska, 
- J. Montero-Marin, R. Araya, J. Garcia-Campayo, K. Rutkowski,
- D. Strzalka,
+\references{
+1. W.W. Koczkodaj,  T. Kakiashvili,  A. Szymanska, J. Montero-Marin, R. Araya, J. Garcia-Campayo, K. Rutkowski, D. Strzalka,
  How to reduce the number of rating scale items without
- predictability loss? Scientometrics, 2017}
+ predictability loss? Scientometrics, 2017 \cr
+ \url{https://link.springer.com/article/10.1007/s11192-017-2283-4} \cr
+
+2. X. Robin, N. Turck, A. Hainard, N. Tiberti, F. Lisacek, J.-C. Sanchez, and M. Muller. proc: an opensource
+package for r and s+ to analyze and compare roc curves. BMC Bioinformatics, 2011 \cr
+\url{https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-77} \cr
+}
  
 \author{Waldemar W. Koczkodaj, Alicja Wolny-Dominiak
 }

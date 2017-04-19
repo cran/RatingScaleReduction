@@ -9,4 +9,4 @@ import(
   ggplot2
 )
 
-importFrom("graphics", "abline", "mtext", "plot", "points")
+importFrom("graphics", "abline", "mtext", "plot", "points", "legend", "lines")

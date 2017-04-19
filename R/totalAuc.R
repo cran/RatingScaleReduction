@@ -14,7 +14,7 @@ s1 <-attribute1[,order(attribute1[1,],  decreasing = TRUE)]
 s <-s1[2:nrow(s1),]
 
 ss <-c()
-ss[1]<-start.auc[1]
+ss[1]<-s1[1,1]
 for (i in 2:ncol(s)){
 ss[i] <-roc(D, rowSums(s[,1:i]), plotROC=FALSE)$auc
  }

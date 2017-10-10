@@ -3,7 +3,7 @@
 \alias{CheckAttr4Inclusion}
 
 \title{Check the next attribute for possible inclusion into AUC}
-\description{The next attribute is added to the running total.
+\description{The attribute checked for AUC before it is added to the running total.
 The running total is used with the class (decision attribute)
 to compute AUC. The next attribute is added to the sequence of attributes having the MAX total AUC.}
 
@@ -37,9 +37,11 @@ correlated receiver operating characteristic curves: a nonparametric approach. B
  J. Montero-Marin, R. Araya, J. Garcia-Campayo, K. Rutkowski,
  D. Strzalka,
  How to reduce the number of rating scale items without
- predictability loss? Scientometrics, 2017}
+ predictability loss? Scientometrics,909(2):581-593(open access), 2017 \cr
+ \url{https://link.springer.com/article/10.1007/s11192-017-2283-4} \cr}
  
-\author{Waldemar W. Koczkodaj, Alicja Wolny-Dominiak
+ 
+\author{Waldemar W. Koczkodaj, Feng Li,Alicja Wolny-Dominiak
 }
 
 \examples{

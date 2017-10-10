@@ -3,7 +3,7 @@
 
 \title{The number of different (unique) examples in a dataset}
 
-\description{Datasets may contain replications. In particular,
+\description{Datasets often contain replications. In particular,
 one example may be replicated  n times, where n is the total
 number of examples, so that there are no other examples.
 Such situation would deviate computations and should be early detected.
@@ -21,12 +21,12 @@ diffExamples(attribute)
 
 \value{
 \item{total.examples}{a number of examples in a data}
-\item{dif.examples}{a number of different examples in a data}
+\item{diff.examples}{a number of different examples in a data}
 \item{dup.exapmles}{a number of duplicate examples in a data}
 }
 
 
-\author{Waldemar W. Koczkodaj, Alicja Wolny-Dominiak
+\author{Waldemar W. Koczkodaj, Feng Li,Alicja Wolny-Dominiak
 }
 
 \examples{

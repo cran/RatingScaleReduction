@@ -28,7 +28,7 @@ totalAuc(attribute, D, plotT = FALSE)}
 \references{
 1. W.W. Koczkodaj,  T. Kakiashvili,  A. Szymanska, J. Montero-Marin, R. Araya, J. Garcia-Campayo, K. Rutkowski, D. Strzalka,
  How to reduce the number of rating scale items without
- predictability loss? Scientometrics, 2017 \cr
+ predictability loss? Scientometrics, 909(2):581-593(open access), 2017\cr
  \url{https://link.springer.com/article/10.1007/s11192-017-2283-4} \cr
 
 

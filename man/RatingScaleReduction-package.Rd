@@ -5,13 +5,13 @@
 \title{Rating Scale Reduction Procedure}
 
 \description{
-In essence, this package describes a procedure of reducing items in a rating scale.
+This package describes a procedure of reducing items in a rating scale.
 It was published in the refence included in this description. The method was proposed by Waldemar W. Koczkodaj
 and published by a sizable collboration coordinated by him.
 }
 
 \author{
-Waldemar W. Koczkodaj, Alicja Wolny-Dominiak \cr
+Waldemar W. Koczkodaj, Feng Li,Alicja Wolny-Dominiak \cr
 Maintainer: Alicja Wolny-Dominiak
 }
 
@@ -19,7 +19,7 @@ Maintainer: Alicja Wolny-Dominiak
 \references{
 1. W.W. Koczkodaj,  T. Kakiashvili,  A. Szymanska, J. Montero-Marin, R. Araya, J. Garcia-Campayo, K. Rutkowski, D. Strzalka,
  How to reduce the number of rating scale items without
- predictability loss? Scientometrics, 2017 \cr
+ predictability loss? Scientometrics, 909(2):581-593(open access), 2017 \cr
  \url{https://link.springer.com/article/10.1007/s11192-017-2283-4} \cr
 
 

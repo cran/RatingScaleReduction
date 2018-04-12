@@ -36,7 +36,8 @@
 ###############################################################################################
 
 rsr <- function(attribute, D, plotRSR = FALSE, method = c("Stop1Max", "StopGlobalMax")) {
-    if (length(names(attribute)) == 0) {
+    method <- match.arg(method)
+	if (length(names(attribute)) == 0) {
         outlist <- list(message("names(attribute)==NULL Create attribute LABELS (e.g. using colnames)"))
     }
     
@@ -116,7 +117,11 @@ rsr <- function(attribute, D, plotRSR = FALSE, method = c("Stop1Max", "StopGloba
             }
 
             } 
-            else outlist = list(rsr.auc = auc.reduct, rsr.label = names(s1)[1], summary = tab)
+            else { if (length(auc.reduct) == 1) {  
+						outlist <- list(rsr.auc = auc.reduct, rsr.label = names(s1)[1], summary = tab)}
+							else {
+                outlist <- list(rsr.auc = auc.reduct, rsr.label = names(s1[1, 1:length(auc.reduct)]), 
+                  summary = tab)}}
     }
     
     class(outlist) = "RatingScaleReduction"

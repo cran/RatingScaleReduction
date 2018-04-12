@@ -40,7 +40,7 @@ rsr(attribute, D, plotRSR = FALSE, method=c('Stop1Max', 'StopGlobalMax'))
   \item{attribute}{a matrix or data.frame containing attributes}
   \item{D}{ the decision vector }
   \item{plotRSR}{If TRUE the ROC curve is ploted}
-  \item{method}{the Stop reduction criteria: First Max of AUC or Global Max of AUC}
+  \item{method}{the Stop reduction criteria: First Max of AUC or Global Max of AUC, default: 'Stop1Max'}
 }
 
 

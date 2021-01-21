@@ -26,7 +26,8 @@ Maintainer: Alicja Wolny-Dominiak
 2. T. Kakiashvili, W. W. Koczkodaj, and M. Woodbury-Smith. Improving the medical scale predictability
 by the pairwise comparisons method: Evidence from a clinical data study. Computer Methods and
 Programs in Biomedicine, 105(3), 2012 \cr
-DOI: \url{http://dx.doi.org/10.1016/j.cmpb.2011.09.011} \cr
+\url{https://www.sciencedirect.com/science/article/abs/pii/S0169260711002586} \cr
+
 
 
 3. X. Robin, N. Turck, A. Hainard, N. Tiberti, F. Lisacek, J.-C. Sanchez, and M. Muller. proc: an opensource

@@ -1,5 +1,23 @@
-CheckAttr4Inclusion <-
-function(attribute, D, plotCheck = FALSE, method = c("delong", "bootstrap", 
+###############################################################################################
+# Function description
+#   Check the next attribute for possible inclusion into AUC.
+#   The next attribute is added to the running total. The running total is used with the class (decision
+#   attribute) to compute AUC. The next attribute is added to the sequence of attributes having the MAX
+#   total AUC.
+#
+# Parameters
+#   attribute: a matrix or data.frame containing attributes
+#   D: the decision vector
+#   plotCheck: If TRUE the plot with two ROC curves is created
+#   method: the method to useas in the function roc.test{pROC}
+#   boot.n: boostrap replication number
+#   alternative: the alternative hypothesis
+#
+# Return
+#   test: the result of the roc.test as in the function roc.test from the package pROC
+###############################################################################################
+
+CheckAttr4Inclusion <- function(attribute, D, plotCheck = FALSE, method = c("delong", "bootstrap", 
     "venkatraman", "sensitivity", "specificity"), boot.n, alternative = c("two.sided", "less", "greater")) {
     
     if (length(names(attribute)) == 0) 
@@ -40,3 +58,4 @@ function(attribute, D, plotCheck = FALSE, method = c("delong", "bootstrap",
     
     return(test)
 }
+
